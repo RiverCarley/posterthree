@@ -33,6 +33,7 @@ body{
     color: rgb(255, 255, 255);
     position: absolute; /* Position both h1 and h2 absolutely */
     text-align: center; /* Center the text horizontally */
+    margin-top: 0.5vw;
 }
 
 h2 {
@@ -44,7 +45,7 @@ h2 {
 h1 {
     top: 0; /* Position h1 at the top */
     left: 4vw; /* Adjust the left position of h1 */
-    font-size: 3vw; /* Adjust font size as needed */
+    font-size: 2.9vw; /* Adjust font size as needed */
 }
 
 .speaker:nth-child(1) {
@@ -181,11 +182,16 @@ h1 {
     font-size: 0vw; /* Adjust font size as needed */
     color: white;
     top:8vw;
+    font-family: "owners", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: 0.1vw;
+   
 } 
 .speaker.active .info p {
     font-size: 1vw; /* Adjust font size as needed */
     color: white;
-    width: 50%;
+    width: 48%;
     float: right; /* Float the paragraph to the right */
     margin-bottom: 3vw;
 }
@@ -194,7 +200,7 @@ h1 {
 .speaker.active .info a {
     font-size: 1vw; /* Adjust font size as needed */
     color: white;
-    width: 50%;
+    width: 48%;
     float: right; /* Float the paragraph to the right */
     clear: right; /* Clear the float to start on a new line below the paragraph */
 
@@ -228,3 +234,12 @@ h1 {
     display: none;
   }
 
+  @media only screen and (max-width: 1500px) {
+    .speaker.active .info a {
+     font-size: 2vw;
+    }
+    .speaker.active .info p {
+        font-size: 2vw;
+    }
+    
+ }
