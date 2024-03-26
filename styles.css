@@ -154,7 +154,7 @@ h1 {
 
 .container.active .speaker h3 {
  writing-mode: vertical-lr;   
- top: 2vh !important;
+ top: 2vw !important;
 }
 .speaker.active h3 {
     writing-mode: horizontal-tb !important;
