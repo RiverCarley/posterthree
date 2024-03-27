@@ -94,7 +94,7 @@ h1 {
 }
 .speaker:nth-child(5) {
     width:22.75vw;
-    min-height:1400px;
+    min-height:100vh;
     height: 100vh;
     max-height:100vh;
  cursor:pointer;   
@@ -219,7 +219,7 @@ h1 {
 .image-container {
     position: relative;
     height: 85vh; /* Adjust the height as needed */
-    min-height: 1300px;
+    min-height: 85vh;
     top:8vw;
     overflow-y: auto;
 
@@ -243,3 +243,79 @@ h1 {
     }
     
  }
+ @media screen and (orientation: landscape) and (max-height: 1000px) {
+    .speaker:nth-child(1) {
+        min-height:1000px;
+    }
+    .speaker:nth-child(2) {
+        min-height:1000px;
+    }
+    .speaker:nth-child(3) {
+        min-height:1000px;
+    }
+    .speaker:nth-child(4) {
+        min-height:1000px;
+    }
+    .speaker:nth-child(5) {
+        min-height:1000px;
+
+    }
+    
+}
+@media only screen and (min-width: 2000px) {
+    .speaker:nth-child(1) {
+        min-height:2000px;
+    }
+    .speaker:nth-child(2) {
+        min-height:2000px;
+    }
+    .speaker:nth-child(3) {
+        min-height:2000px;
+    }
+    .speaker:nth-child(4) {
+        min-height:2000px;
+    }
+    .speaker:nth-child(5) {
+        min-height:2000px;
+
+    }
+    
+}
+@media only screen and (min-width: 4000px) {
+    .speaker:nth-child(1) {
+        min-height:3000px;
+    }
+    .speaker:nth-child(2) {
+        min-height:3000px;
+    }
+    .speaker:nth-child(3) {
+        min-height:3000px;
+    }
+    .speaker:nth-child(4) {
+        min-height:3000px;
+    }
+    .speaker:nth-child(5) {
+        min-height:3000px;
+
+    }
+    
+}
+@media only screen and (min-width: 5500px)  {
+    .speaker:nth-child(1) {
+        min-height:4000px;
+    }
+    .speaker:nth-child(2) {
+        min-height:4000px;
+    }
+    .speaker:nth-child(3) {
+        min-height:4000px;
+    }
+    .speaker:nth-child(4) {
+        min-height:4000px;
+    }
+    .speaker:nth-child(5) {
+        min-height:4000px;
+
+    }
+    
+}
