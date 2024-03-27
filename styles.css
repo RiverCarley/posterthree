@@ -236,10 +236,10 @@ h1 {
 
   @media only screen and (max-width: 1500px) {
     .speaker.active .info a {
-     font-size: 2vw;
+     font-size: 3vw;
     }
     .speaker.active .info p {
-        font-size: 2vw;
+        font-size: 3vw;
     }
     
  }
