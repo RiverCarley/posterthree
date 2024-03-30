@@ -243,25 +243,45 @@ h1 {
     }
     
  }
- @media screen and (orientation: landscape) and (max-height: 1000px) {
+ @media only screen and (min-height: 900px) {
     .speaker:nth-child(1) {
-        min-height:1000px;
+        min-height:1200px;
     }
     .speaker:nth-child(2) {
-        min-height:1000px;
+        min-height:1200px;
     }
     .speaker:nth-child(3) {
-        min-height:1000px;
+        min-height:1200px;
     }
     .speaker:nth-child(4) {
-        min-height:1000px;
+        min-height:1200px;
     }
     .speaker:nth-child(5) {
-        min-height:1000px;
+        min-height:1200px;
 
     }
     
 }
+ @media screen and (orientation: landscape) and (max-height: 900px) {
+    .speaker:nth-child(1) {
+        min-height:1200px;
+    }
+    .speaker:nth-child(2) {
+        min-height:1200px;
+    }
+    .speaker:nth-child(3) {
+        min-height:1200px;
+    }
+    .speaker:nth-child(4) {
+        min-height:1200px;
+    }
+    .speaker:nth-child(5) {
+        min-height:1200px;
+
+    }
+    
+}
+
 @media only screen and (min-width: 2000px) {
     .speaker:nth-child(1) {
         min-height:2000px;
