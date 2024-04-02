@@ -439,6 +439,7 @@ h1 {
     
     .speaker.active~.speaker {
         transform: translateY(40vw); /* Move subsequent speakers down */
+        transition:translateY 500ms;
     }
 
     .speaker.active .info a {
@@ -513,7 +514,11 @@ h1 {
         top: 40vh;
         overflow-y: auto;
     }
-    
+
+    .speaker.active~.speaker {
+        transform: translateY(60vw); /* Move subsequent speakers down */
+        transition:translate 500ms;
+    }
 }
 /*
 @media only screen and (min-width: 2000px) {
