@@ -506,7 +506,7 @@ h1 {
     
 }
 */
- @media screen and (orientation: landscape) and (max-height: 900px) {
+ @media screen and (orientation: landscape) and (max-height: 1024px) {
   .image-container {
         position: relative;
         height: 0vh; /* Adjust the height as needed */
