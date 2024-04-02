@@ -233,17 +233,263 @@ h1 {
   body::-webkit-scrollbar {
     display: none;
   }
+  /*//////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
   @media only screen and (max-width: 1500px) {
+    .container {
+        min-height:50vh;
+        max-height: 200px!important;
+        transition:300ms;
+        display: flex; /* Set the container to display as flex */
+        justify-content: space-between; /* Distribute the .speaker elements along the main axis */
+        flex-wrap: nowrap; /* Prevent the .speaker elements from wrapping onto a new line */
+    }
+    .container.active .speaker h3 {  
+        writing-mode: horizontal-tb !important;
+        top: 2vw !important;
+       }
+       .speaker.active h3 {
+           writing-mode: horizontal-tb !important;
+           
+       }
+       .speaker:nth-child(3) h3 {
+        top: 2vw;
+       }
+    .speaker:nth-child(1) {
+        width:100vw;
+        min-height:5vh;
+        height: 5vh;
+        max-height:10vh;
+     cursor:pointer;   
+        transition:width 500ms;
+        position: relative;
+        background:rgb(36, 36, 36);
+        
+    }
+    .speaker:nth-child(2) {
+        width:100vw;
+        min-height:5vh;
+        height: 5vh;
+        max-height:100vh;
+     cursor:pointer;   
+        transition:width 500ms;
+        position: relative;
+        background:rgb(36, 36, 36);
+        
+    }
+    .speaker:nth-child(3) {
+        width:100vw;
+        min-height:5vh;
+        height: 5vh;
+        max-height:100vh;
+     cursor:pointer;   
+        transition:width 500ms;
+        position: relative;
+        background:rgb(36, 36, 36);
+        
+    }
+    .speaker:nth-child(4) {
+        width:100vw;
+        min-height:5vh;
+        height: 5vh;
+        max-height:100vh;
+     cursor:pointer;   
+        transition:width 500ms;
+        position: relative;
+        background:rgb(36, 36, 36);
+        
+    }
+    .speaker:nth-child(5) {
+        width:100vw;
+        min-height:5vh;
+        height: 5vh;
+        max-height:100vh;
+     cursor:pointer;   
+        transition:width 500ms;
+        position: relative;
+        background:rgb(36, 36, 36);
+        
+    }
+    
+    .container.active .speaker {
+        width:100vw;
+        height: 5vh;
+    }
+    .container.active .speaker img {
+        width: 0%;   
+       }
+       .speaker.active img {
+        width: 100%!important; /* Adjust the image width to 50% when speaker is active */
+    }
+    
+    .speaker.active:nth-child(2) {
+        width:100vw!important;
+        height:100vh!important;
+
+    }
+    .speaker.active:nth-child(3) {
+        width:100vw!important;
+        height:100vh!important;
+    }
+    .speaker.active:nth-child(4) {
+        width:100vw!important;
+        height:100vh!important;
+    }
+    .speaker.active:nth-child(5) {
+        width:100vw!important;
+        height:100vh!important;
+    }
+    .container.active .speaker:nth-child(1) {
+        width:100vw
+       }
     .speaker.active .info a {
      font-size: 2.5vw;
     }
     .speaker.active .info p {
         font-size: 2.5vw;
     }
+    * {
+        padding:0;
+        margin:0;
+    }
+    body {
+        background-color: rgb(51, 44, 44);
+    }
+    .container {
+        min-height:10vh;
+        max-height: 200px!important;
+        transition:300ms;
+        display: flex; /* Set the container to display as flex */
+        flex-direction: column; /* Change flex direction to column */
+        justify-content: space-between; /* Distribute the .speaker elements along the main axis */
+        flex-wrap: nowrap; /* Prevent the .speaker elements from wrapping onto a new line */
+    }
+    
+    .speaker:nth-child(2n) h3 {
+        top: 2vw;
+    }
+    
+    h1, h2 {
+        writing-mode: horizontal-tb; /* Change writing mode to horizontal-tb */
+        font-family: "owners", sans-serif;
+        font-weight: 1000;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        position: relative; /* Remove absolute positioning */
+        text-align: center; /* Center the text horizontally */
+        margin-top: 0.5vw;
+    }
+    
+    h2 {
+        font-size: 1.5vw; /* Adjust font size as needed */
+    }
+    
+    h1 {
+        font-size: 2.9vw; /* Adjust font size as needed */
+    }
+    
+    .speaker {
+        min-height: 10vh;
+        max-height: 10vh;
+        cursor: pointer;   
+        transition: width 500ms;
+        position: relative;
+        background: rgb(36, 36, 36);
+        width: calc(100% - 1vw); /* Adjust width for margin */
+        margin-bottom: 1vw; /* Add margin between speakers */
+    }
+    
+    .container.active .speaker {
+        width: 100%; /* Adjust width for active state */
+    }
+    
+    .speaker img {
+        width: 0%; /* Ensure the image fills the container */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Remove any default spacing */
+    }
+    .speaker.active img {
+        width: 100%; /* Ensure the image fills the container */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Remove any default spacing */
+    }
+    
+    .speaker h3 {
+        text-align: center;
+        position: absolute;
+        top: 0; /* Position the paragraph at the top */
+        width: 100%; /* Full width */
+        margin: 0; /* Remove default margin */
+        font-size: 2.8vw;
+        cursor: pointer; /* Set the cursor image */
+        font-family: "owners", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: white;
+    }
+    
+    .speaker .info {
+        padding: 0 1%; /* Add padding to the container */
+        text-align: left; /* Align text to the left */
+    }
+    .speaker.active .info p {
+        font-size: 2.5vw; /* Adjust font size as needed */
+        color: white;
+        width: 100%;
+        float: right; /* Float the paragraph to the right */
+        margin-bottom: 3vw;
+    }
+    
+    .speaker.active~.speaker {
+        transform: translateY(90vh); /* Move subsequent speakers down */
+    }
+
+    .speaker.active .info a {
+        font-size: 2.5vw; /* Adjust font size as needed */
+        color: white;
+        width: 100%;
+        float: right; /* Float the paragraph to the right */
+        clear: right; /* Clear the float to start on a new line below the paragraph */
+    
+    }
+    
+    .speaker .info p,
+    .speaker .info a {
+        font-size: 0vw; /* Adjust font size as needed */
+        color: white;
+        font-family: "owners", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        letter-spacing: 0.15vw;
+    } 
+    
+    .speaker.active .info p,
+    .speaker.active .info a {
+        font-size: 2.5vw; /* Adjust font size as needed */
+    }
+    
+    .image-container {
+        position: relative;
+        height: 50vh; /* Adjust the height as needed */
+        min-height: 50vh;
+        top: 40vh;
+        overflow-y: auto;
+    }
+    
+    .image-container img {
+        cursor: ns-resize; /* Set the cursor image */
+    }
+    
+    .image-container::-webkit-scrollbar {
+        display: none;
+    }
+    
+    body::-webkit-scrollbar {
+        display: none;
+    }
     
  }
- @media only screen and (min-height: 900px) {
+ /* @media only screen and (min-height: 900px) {
     .speaker:nth-child(1) {
         min-height:1200px;
     }
@@ -262,26 +508,18 @@ h1 {
     }
     
 }
+*/
  @media screen and (orientation: landscape) and (max-height: 900px) {
-    .speaker:nth-child(1) {
-        min-height:1200px;
-    }
-    .speaker:nth-child(2) {
-        min-height:1200px;
-    }
-    .speaker:nth-child(3) {
-        min-height:1200px;
-    }
-    .speaker:nth-child(4) {
-        min-height:1200px;
-    }
-    .speaker:nth-child(5) {
-        min-height:1200px;
-
+  .image-container {
+        position: relative;
+        height: 0vh; /* Adjust the height as needed */
+        min-height: 0vh;
+        top: 40vh;
+        overflow-y: auto;
     }
     
 }
-
+/*
 @media only screen and (min-width: 2000px) {
     .speaker:nth-child(1) {
         min-height:2000px;
@@ -338,4 +576,4 @@ h1 {
 
     }
     
-}
+} */
