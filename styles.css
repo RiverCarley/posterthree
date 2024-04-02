@@ -261,7 +261,7 @@ h1 {
         width:100%;
         min-height:8vW;
         height: 8vW;
-        max-height:100vW;
+        max-height:8vW;
      cursor:pointer;   
         transition:height 500ms;
         position: relative;
@@ -272,7 +272,7 @@ h1 {
         width:100%;
         min-height:8vW;
         height: 8vW;
-        max-height:100vW;
+        max-height:8vW;
      cursor:pointer;   
         transition:height 500ms;
         position: relative;
@@ -283,7 +283,7 @@ h1 {
         width:100%;
         min-height:8vW;
         height: 8vW;
-        max-height:100vW;
+        max-height:8vW;
      cursor:pointer;   
         transition:height 500ms;
         position: relative;
@@ -294,7 +294,7 @@ h1 {
         width:100%;
         min-height:8vW;
         height:8vW;
-        max-height:100vW;
+        max-height:8vW;
      cursor:pointer;   
         transition:height 500ms;
         position: relative;
@@ -481,7 +481,7 @@ h1 {
     }
     
  }
-  @media only screen and (min-height: 900px) {
+  /* @media only screen and (min-height: 900px) {
     .speaker:nth-child(1) {
         min-height:1200px;
     }
@@ -499,7 +499,7 @@ h1 {
 
     }
     
-}
+} */
 
  @media screen and (orientation: landscape) and (max-height: 1024px) and (max-width: 900px){
   .image-container {
