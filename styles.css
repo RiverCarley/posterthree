@@ -236,84 +236,75 @@ h1 {
   /*//////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
   @media only screen and (max-width: 1500px) {
-    .container {
-        min-height:50vh;
-        max-height: 200px!important;
-        transition:300ms;
-        display: flex; /* Set the container to display as flex */
-        justify-content: space-between; /* Distribute the .speaker elements along the main axis */
-        flex-wrap: nowrap; /* Prevent the .speaker elements from wrapping onto a new line */
-    }
+
     .container.active .speaker h3 {  
         writing-mode: horizontal-tb !important;
-        top: 2vw !important;
+
        }
        .speaker.active h3 {
            writing-mode: horizontal-tb !important;
            
        }
-       .speaker:nth-child(3) h3 {
-        top: 2vw;
-       }
+
     .speaker:nth-child(1) {
-        width:100vw;
-        min-height:5vh;
-        height: 5vh;
-        max-height:10vh;
+        width:100%;
+        min-height:10vW;
+        height: 10vW;
+        max-height:10vW;
      cursor:pointer;   
-        transition:width 500ms;
+        transition:height 500ms;
         position: relative;
         background:rgb(36, 36, 36);
         
     }
     .speaker:nth-child(2) {
-        width:100vw;
-        min-height:5vh;
-        height: 5vh;
-        max-height:100vh;
+        width:100%;
+        min-height:8vW;
+        height: 8vW;
+        max-height:100vW;
      cursor:pointer;   
-        transition:width 500ms;
+        transition:height 500ms;
         position: relative;
         background:rgb(36, 36, 36);
         
     }
     .speaker:nth-child(3) {
-        width:100vw;
-        min-height:5vh;
-        height: 5vh;
-        max-height:100vh;
+        width:100%;
+        min-height:8vW;
+        height: 8vW;
+        max-height:100vW;
      cursor:pointer;   
-        transition:width 500ms;
+        transition:height 500ms;
         position: relative;
         background:rgb(36, 36, 36);
         
     }
     .speaker:nth-child(4) {
-        width:100vw;
-        min-height:5vh;
-        height: 5vh;
-        max-height:100vh;
+        width:100%;
+        min-height:8vW;
+        height: 8vW;
+        max-height:100vW;
      cursor:pointer;   
-        transition:width 500ms;
+        transition:height 500ms;
         position: relative;
         background:rgb(36, 36, 36);
         
     }
     .speaker:nth-child(5) {
-        width:100vw;
-        min-height:5vh;
-        height: 5vh;
-        max-height:100vh;
+        width:100%;
+        min-height:8vW;
+        height:8vW;
+        max-height:100vW;
      cursor:pointer;   
-        transition:width 500ms;
+        transition:height 500ms;
         position: relative;
         background:rgb(36, 36, 36);
         
     }
     
     .container.active .speaker {
-        width:100vw;
-        height: 5vh;
+        width:100%;
+        height: 8vw;
     }
     .container.active .speaker img {
         width: 0%;   
@@ -323,24 +314,24 @@ h1 {
     }
     
     .speaker.active:nth-child(2) {
-        width:100vw!important;
+        width:100%!important;
         height:100vh!important;
 
     }
     .speaker.active:nth-child(3) {
-        width:100vw!important;
+        width:100%!important;
         height:100vh!important;
     }
     .speaker.active:nth-child(4) {
-        width:100vw!important;
+        width:100%!important;
         height:100vh!important;
     }
     .speaker.active:nth-child(5) {
-        width:100vw!important;
+        width:100%!important;
         height:100vh!important;
     }
     .container.active .speaker:nth-child(1) {
-        width:100vw
+        width:100%
        }
     .speaker.active .info a {
      font-size: 2.5vw;
@@ -353,11 +344,11 @@ h1 {
         margin:0;
     }
     body {
-        background-color: rgb(51, 44, 44);
+        background-color:rgb(153, 57, 57);
     }
     .container {
         min-height:10vh;
-        max-height: 200px!important;
+        max-height: 100vh!important;
         transition:300ms;
         display: flex; /* Set the container to display as flex */
         flex-direction: column; /* Change flex direction to column */
@@ -365,10 +356,18 @@ h1 {
         flex-wrap: nowrap; /* Prevent the .speaker elements from wrapping onto a new line */
     }
     
-    .speaker:nth-child(2n) h3 {
+    .speaker:nth-child(2) h3 {
         top: 2vw;
     }
-    
+    .speaker:nth-child(3) h3 {
+        top: 2vw;
+    }
+    .speaker:nth-child(4) h3 {
+        top: 2vw;
+    }
+    .speaker:nth-child(5) h3 {
+        top: 2vw;
+    }
     h1, h2 {
         writing-mode: horizontal-tb; /* Change writing mode to horizontal-tb */
         font-family: "owners", sans-serif;
@@ -377,7 +376,6 @@ h1 {
         color: rgb(255, 255, 255);
         position: relative; /* Remove absolute positioning */
         text-align: center; /* Center the text horizontally */
-        margin-top: 0.5vw;
     }
     
     h2 {
@@ -389,14 +387,13 @@ h1 {
     }
     
     .speaker {
-        min-height: 10vh;
-        max-height: 10vh;
+        min-height: 8vw;
+        max-height: 100vw;
         cursor: pointer;   
         transition: width 500ms;
         position: relative;
         background: rgb(36, 36, 36);
         width: calc(100% - 1vw); /* Adjust width for margin */
-        margin-bottom: 1vw; /* Add margin between speakers */
     }
     
     .container.active .speaker {
@@ -441,7 +438,7 @@ h1 {
     }
     
     .speaker.active~.speaker {
-        transform: translateY(90vh); /* Move subsequent speakers down */
+        transform: translateY(40vw); /* Move subsequent speakers down */
     }
 
     .speaker.active .info a {
@@ -452,7 +449,7 @@ h1 {
         clear: right; /* Clear the float to start on a new line below the paragraph */
     
     }
-    
+    3
     .speaker .info p,
     .speaker .info a {
         font-size: 0vw; /* Adjust font size as needed */
