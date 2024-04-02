@@ -45,11 +45,11 @@ h2 {
 h1 {
     top: 0; /* Position h1 at the top */
     left: 4vw; /* Adjust the left position of h1 */
-    font-size: 2.9vw; /* Adjust font size as needed */
+    font-size: 2.5vw; /* Adjust font size as needed */
 }
 
 .speaker:nth-child(1) {
-    width:9vw;
+    width:12vw;
     min-height:100vh;
     height: 100vh;
     max-height:100vh;
@@ -60,7 +60,7 @@ h1 {
     
 }
 .speaker:nth-child(2) {
-    width:22.75vw;
+    width:22vw;
     min-height:100vh;
     height: 100vh;
     max-height:100vh;
@@ -71,7 +71,7 @@ h1 {
     
 }
 .speaker:nth-child(3) {
-    width:22.75vw;
+    width:22vw;
     min-height:100vh;
     height: 100vh;
     max-height:100vh;
@@ -82,7 +82,7 @@ h1 {
     
 }
 .speaker:nth-child(4) {
-    width:22.75vw;
+    width:22vw;
     min-height:100vh;
     height: 100vh;
     max-height:100vh;
@@ -93,7 +93,7 @@ h1 {
     
 }
 .speaker:nth-child(5) {
-    width:22.75vw;
+    width:22vw;
     min-height:100vh;
     height: 100vh;
     max-height:100vh;
@@ -109,19 +109,19 @@ h1 {
 }
 
 .speaker.active:nth-child(2) {
-    width:77.5vw!important;
+    width:74.5vw!important;
 }
 .speaker.active:nth-child(3) {
-    width:77.5vw!important;
+    width:74.5vw!important;
 }
 .speaker.active:nth-child(4) {
-    width:77.5vw!important;
+    width:74.5vw!important;
 }
 .speaker.active:nth-child(5) {
-    width:77.5vw!important;
+    width:74.5vw!important;
 }
 .container.active .speaker:nth-child(1) {
-    width:9vw
+    width:12vw
    }
 
 .speaker img {
@@ -144,7 +144,7 @@ h1 {
     top: 0; /* Position the paragraph at the top */
     width: 100%; /* Full width */
     margin: 0; /* Remove default margin */
-    font-size: 2.8vw;
+    font-size: 2.5vw;
     cursor:pointer; /* Set the cursor image */
     font-family: "owners", sans-serif;
     font-weight: 500;
@@ -371,6 +371,7 @@ h1 {
         color: rgb(255, 255, 255);
         position: relative; /* Remove absolute positioning */
         text-align: center; /* Center the text horizontally */
+        letter-spacing: 0.15vw;
     }
     
     h2 {
@@ -418,6 +419,7 @@ h1 {
         font-weight: 500;
         font-style: normal;
         color: white;
+        letter-spacing: 0.2vw;
     }
     
     .speaker .info {
@@ -450,7 +452,7 @@ h1 {
         font-family: "owners", sans-serif;
         font-weight: 200;
         font-style: normal;
-        letter-spacing: 0.15vw;
+        letter-spacing: 0.2vw;
     } 
     
     .speaker.active .info p,
@@ -479,7 +481,7 @@ h1 {
     }
     
  }
- /* @media only screen and (min-height: 900px) {
+  @media only screen and (min-height: 900px) {
     .speaker:nth-child(1) {
         min-height:1200px;
     }
@@ -498,8 +500,8 @@ h1 {
     }
     
 }
-*/
- @media screen and (orientation: landscape) and (max-height: 1024px) {
+
+ @media screen and (orientation: landscape) and (max-height: 1024px) and (max-width: 900px){
   .image-container {
         position: relative;
         height: 0vh; /* Adjust the height as needed */
