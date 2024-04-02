@@ -469,7 +469,7 @@ h1 {
         position: relative;
         height: 65vw; /* Adjust the height as needed */
         min-height: 65vw;
-        top: 75vw;
+        top: 80vw;
         overflow-y: auto;
     }
     
@@ -506,7 +506,7 @@ h1 {
     
 } */
 
- @media screen and (orientation: landscape) and (max-height: 1024px) and (max-width: 900px){
+ @media screen and (orientation: landscape) and (max-height: 1025px){
   .image-container {
         position: relative;
         height: 0vh; /* Adjust the height as needed */
@@ -516,10 +516,33 @@ h1 {
     }
 
     .speaker.active~.speaker {
-        transform: translateY(60vw); /* Move subsequent speakers down */
+        transform: translateY(50vw); /* Move subsequent speakers down */
         transition:translate 500ms;
     }
+    .speaker.active .info p,
+    .speaker.active .info a {
+        font-size: 2.6vw; /* Adjust font size as needed */
+    }
 }
+
+@media screen and (orientation: landscape) and  (max-width: 900px){
+    .image-container {
+          position: relative;
+          height: 0vh; /* Adjust the height as needed */
+          min-height: 0vh;
+          top: 40vh;
+          overflow-y: auto;
+      }
+  
+      .speaker.active~.speaker {
+          transform: translateY(60vw); /* Move subsequent speakers down */
+          transition:translate 500ms;
+      }
+      .speaker.active .info p,
+      .speaker.active .info a {
+          font-size: 2.6vw; /* Adjust font size as needed */
+      }
+  }
 /*
 @media only screen and (min-width: 2000px) {
     .speaker:nth-child(1) {
