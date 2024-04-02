@@ -261,7 +261,7 @@ h1 {
         width:100%;
         min-height:8vW;
         height: 8vW;
-        max-height:8vW;
+        max-height:100vW;
      cursor:pointer;   
         transition:height 500ms;
         position: relative;
@@ -272,7 +272,7 @@ h1 {
         width:100%;
         min-height:8vW;
         height: 8vW;
-        max-height:8vW;
+        max-height:100vW;
      cursor:pointer;   
         transition:height 500ms;
         position: relative;
@@ -283,7 +283,7 @@ h1 {
         width:100%;
         min-height:8vW;
         height: 8vW;
-        max-height:8vW;
+        max-height:100vW;
      cursor:pointer;   
         transition:height 500ms;
         position: relative;
@@ -294,7 +294,7 @@ h1 {
         width:100%;
         min-height:8vW;
         height:8vW;
-        max-height:8vW;
+        max-height:100vW;
      cursor:pointer;   
         transition:height 500ms;
         position: relative;
