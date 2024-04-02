@@ -14,6 +14,10 @@ body{
     justify-content: space-between; /* Distribute the .speaker elements along the main axis */
     flex-wrap: nowrap; /* Prevent the .speaker elements from wrapping onto a new line */
 }
+.speaker:nth-child(3) h3 {
+    line-height: 1;
+    top: 1vw;
+   }
 
 
 .speaker:nth-child(2) h3 {
@@ -364,6 +368,7 @@ h1 {
         top: 2vw;
     }
     h1, h2 {
+        top: 0.5vw;
         writing-mode: horizontal-tb; /* Change writing mode to horizontal-tb */
         font-family: "owners", sans-serif;
         font-weight: 1000;
@@ -375,11 +380,11 @@ h1 {
     }
     
     h2 {
-        font-size: 1.5vw; /* Adjust font size as needed */
+        font-size: 3vw; /* Adjust font size as needed */
     }
     
     h1 {
-        font-size: 2.9vw; /* Adjust font size as needed */
+        font-size: 4vw; /* Adjust font size as needed */
     }
     
     .speaker {
@@ -413,7 +418,7 @@ h1 {
         top: 0; /* Position the paragraph at the top */
         width: 100%; /* Full width */
         margin: 0; /* Remove default margin */
-        font-size: 2.8vw;
+        font-size: 3.5vw;
         cursor: pointer; /* Set the cursor image */
         font-family: "owners", sans-serif;
         font-weight: 500;
@@ -457,14 +462,14 @@ h1 {
     
     .speaker.active .info p,
     .speaker.active .info a {
-        font-size: 2.6vw; /* Adjust font size as needed */
+        font-size: 3vw; /* Adjust font size as needed */
     }
     
     .image-container {
         position: relative;
         height: 65vw; /* Adjust the height as needed */
         min-height: 65vw;
-        top: 65vw;
+        top: 75vw;
         overflow-y: auto;
     }
     
