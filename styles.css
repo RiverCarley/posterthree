@@ -240,7 +240,7 @@ h1 {
   }
   /*//////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-  @media only screen and (max-width: 1000px) and (min-height: 370px) {
+  @media only screen and (max-width: 1000px)  {
 
     .container.active .speaker h3 {  
         writing-mode: horizontal-tb !important;
@@ -564,7 +564,7 @@ h1 {
           font-size: 2.6vw; 
       }
     }
-    @media screen  and  (max-height: 370px){
+    @media screen  and  (max-height: 401px){
         .container.active .speaker h3 {  
             writing-mode: horizontal-tb !important;
     
