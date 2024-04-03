@@ -564,7 +564,7 @@ h1 {
           font-size: 2.6vw; 
       }
     }
-    @media screen  and  (max-height: 401px){
+    @media screen  and  (max-height: 650px){
         .container.active .speaker h3 {  
             writing-mode: horizontal-tb !important;
     
