@@ -440,7 +440,7 @@ h1 {
     }
     
     .speaker.active~.speaker {
-        transform: translateY(50vw); /* Move subsequent speakers down */
+        transform: translateY(70vw); /* Move subsequent speakers down */
         transition:transform 500ms;
     }
 
