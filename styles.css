@@ -162,6 +162,21 @@ h1 {
  writing-mode: vertical-lr;   
  top: 2vw !important;
 }
+.container.active .speaker h1{
+    writing-mode: vertical-lr !important;
+    position: absolute;
+    top: 0; /* Position h1 at the top */
+    left: 10vw; /* Adjust the left position of h1 */
+    font-size: 2.5vw; /* Adjust font size as needed */
+
+    }
+    .container.active .speaker h2{
+        writing-mode: vertical-lr !important;
+        position: absolute;
+        top: 0; /* Position h2 at the top */
+        left: 8vw; /* Adjust the left position of h2 */
+        font-size: 1.5vw; /* Adjust font size as needed */
+        }
 .speaker.active h3,h1,h2 {
     writing-mode: horizontal-tb !important;
     
