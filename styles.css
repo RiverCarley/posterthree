@@ -533,31 +533,7 @@ h1 {
     
  }
  @media only screen and (max-width: 1000px) and (min-width: 750px) {
-    .container.active .speaker h1{
-        top: 0.5vw;
-        writing-mode: horizontal-tb; /* Change writing mode to horizontal-tb */
-        font-family: "owners", sans-serif;
-        font-weight: 1000;
-        font-style: normal;
-        color: rgb(255, 255, 255);
-        position: absolute; /* Remove absolute positioning */
-        text-align: center; /* Center the text horizontally */
-        letter-spacing: 0.1em;
-    
-        }
-        .container.active .speaker h2{
-            top: 0.5vw;
-        writing-mode: horizontal-tb; /* Change writing mode to horizontal-tb */
-        font-family: "owners", sans-serif;
-        font-weight: 1000;
-        font-style: normal;
-        color: rgb(255, 255, 255);
-        position: absolute; /* Remove absolute positioning */
-        text-align: center; /* Center the text horizontally */
-        letter-spacing: 0.1em;
-           
-            
-            }
+
 
     .container.active .speaker h3 {  
         writing-mode: horizontal-tb !important;
