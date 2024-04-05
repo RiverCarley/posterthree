@@ -588,7 +588,7 @@ h1 {
     }
     
     .speaker.active~.speaker {
-        transform: translateY(40vw); /* Move subsequent speakers down */
+        transform: translateY(50vw); /* Move subsequent speakers down */
         transition:transform 500ms;
     }
 
@@ -632,7 +632,7 @@ h1 {
         position: relative;
         height: 65vw; /* Adjust the height as needed */
         min-height: 65vw;
-        top: 80vw;
+        top: 90vw;
         overflow-y: auto;
     }
     
