@@ -128,19 +128,19 @@ h1 {
 }
 
 .speaker.active:nth-child(2) {
-    width:66.5vw!important;
+    width:81.5vw!important;
 }
 .speaker.active:nth-child(3) {
-    width:66.5vw!important;
+    width:81.5vw!important;
 }
 .speaker.active:nth-child(4) {
-    width:66.5vw!important;
+    width:81.5vw!important;
 }
 .speaker.active:nth-child(5) {
-    width:66.5vw!important;
+    width:81.5vw!important;
 }
 .container.active .speaker:nth-child(1) {
-    width:20vw
+    width:5vw
    }
 
 .speaker img {
@@ -196,7 +196,7 @@ h1 {
     writing-mode: vertical-lr !important;
     position: absolute;
     top: 1vw; /* Position h1 at the top */
-    left: 10vw; /* Adjust the left position of h1 */
+    left: 2.5vw; /* Adjust the left position of h1 */
     font-size: 2.5vw; /* Adjust font size as needed */
 
     }
@@ -204,8 +204,8 @@ h1 {
         writing-mode: vertical-lr !important;
         position: absolute;
         top: 1vw; /* Position h2 at the top */
-        left: 8vw; /* Adjust the left position of h2 */
-        font-size: 1.5vw; /* Adjust font size as needed */
+        left: 1.5vw; /* Adjust the left position of h2 */
+        font-size: 1vw; /* Adjust font size as needed */
         }
 .speaker.active h3,h1,h2 {
     writing-mode: horizontal-tb !important;
