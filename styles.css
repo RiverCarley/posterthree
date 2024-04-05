@@ -195,7 +195,7 @@ h1 {
 .container.active .speaker h1{
     writing-mode: vertical-lr !important;
     position: absolute;
-    top: 1vw; /* Position h1 at the top */
+    top: 1.6vw; /* Position h1 at the top */
     left: 2.5vw; /* Adjust the left position of h1 */
     font-size: 2.5vw; /* Adjust font size as needed */
 
@@ -203,7 +203,7 @@ h1 {
     .container.active .speaker h2{
         writing-mode: vertical-lr !important;
         position: absolute;
-        top: 1vw; /* Position h2 at the top */
+        top: 1.6vw; /* Position h2 at the top */
         left: 1.5vw; /* Adjust the left position of h2 */
         font-size: 1vw; /* Adjust font size as needed */
         }
@@ -1189,7 +1189,7 @@ h1 {
           font-size: 2.6vw; 
       }
     }
-    @media screen and  (min-aspect-ratio: 2.8/1) and (max-aspect-ratio: 4/0.1) {
+    @media screen and  (min-aspect-ratio: 2.3/1) and (max-aspect-ratio: 4/0.1) {
         .container.active .speaker h1{
             top: 0.5vw;
             left: 0vw;
