@@ -184,6 +184,7 @@ h1 {
       "YTUC" 712;
     color: white;
     letter-spacing: 0.1em;
+    transition:font-weight 500ms;
 
 }
 
@@ -247,6 +248,7 @@ h1 {
           "YTFI" 738,
           "YTLC" 514,
           "YTUC" 712;
+          transition:font-weight 500ms;
    
 } 
 .speaker.active .info p {
@@ -570,6 +572,7 @@ h1 {
         "YTUC" 712;
         color: white;
         letter-spacing: 0.1em;
+        transition:font-weight 500ms;
     }
     
     .speaker .info {
@@ -616,6 +619,7 @@ h1 {
           "YTLC" 514,
           "YTUC" 712;
         letter-spacing: 0.1em;
+        transition:font-weight 500ms;
     } 
     
     .speaker.active .info p,
@@ -917,6 +921,7 @@ h1 {
           "YTUC" 712;
         color: white;
         letter-spacing: 0.1em;
+        transition:font-weight 500ms;
     }
     
     .speaker .info {
@@ -963,6 +968,7 @@ h1 {
           "YTLC" 514,
           "YTUC" 712;
         letter-spacing: 0.1em;
+        transition:font-weight 500ms;
     } 
     
     .speaker.active .info p,
@@ -1454,6 +1460,7 @@ h1 {
         "YTUC" 712;
             color: white;
             letter-spacing: 0.1em;
+            transition:font-weight 500ms;
         }
         
         .speaker .info {
@@ -1497,6 +1504,7 @@ h1 {
               "YTLC" 514,
               "YTUC" 712;
             letter-spacing: 0.1em;
+            transition:font-weight 500ms;
         } 
         
         
