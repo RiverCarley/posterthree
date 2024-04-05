@@ -533,6 +533,35 @@ h1 {
     
  }
  @media only screen and (max-width: 1000px) and (min-width: 750px) {
+    .container.active .speaker h1{
+        top: 0.5vw;
+        left: 0vw;
+        writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
+        font-family: "owners", sans-serif;
+        font-weight: 1000;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        position: relative; /* Remove absolute positioning */
+        text-align: center; /* Center the text horizontally */
+        letter-spacing: 0.1em;
+        font-size: 4vw;
+    
+        }
+        .container.active .speaker h2{
+            top: 0.5vw;
+            left: 0vw;
+            writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
+            font-family: "owners", sans-serif;
+            font-weight: 1000;
+            font-style: normal;
+            color: rgb(255, 255, 255);
+            position: relative; /* Remove absolute positioning */
+            text-align: center; /* Center the text horizontally */
+            letter-spacing: 0.1em;
+            font-size: 3vw;
+           
+            
+            }
 
 
     .container.active .speaker h3 {  
@@ -663,6 +692,7 @@ h1 {
     }
     h1, h2 {
         top: 0.5vw;
+        left:0vw;
         writing-mode: horizontal-tb; /* Change writing mode to horizontal-tb */
         font-family: "owners", sans-serif;
         font-weight: 1000;
@@ -782,6 +812,35 @@ h1 {
  }
 
  @media (min-aspect-ratio: 4/5.5) and (max-aspect-ratio: 4/0.1) and (max-width:1000px) and (max-height:1000px){
+    .container.active .speaker h1{
+        top: 0.5vw;
+        left: 0vw;
+        writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
+        font-family: "owners", sans-serif;
+        font-weight: 1000;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        position: relative; /* Remove absolute positioning */
+        text-align: center; /* Center the text horizontally */
+        letter-spacing: 0.1em;
+        font-size: 4vw;
+    
+        }
+        .container.active .speaker h2{
+            top: 0.5vw;
+            left: 0vw;
+            writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
+            font-family: "owners", sans-serif;
+            font-weight: 1000;
+            font-style: normal;
+            color: rgb(255, 255, 255);
+            position: relative; /* Remove absolute positioning */
+            text-align: center; /* Center the text horizontally */
+            letter-spacing: 0.1em;
+            font-size: 3vw;
+           
+            
+            }
     
     .image-container {
         position: relative;
@@ -840,6 +899,36 @@ h1 {
 
 
 @media screen and (orientation: landscape) and  (max-width: 1000px){
+
+    .container.active .speaker h1{
+        top: 0.5vw;
+        left: 0vw;
+        writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
+        font-family: "owners", sans-serif;
+        font-weight: 1000;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        position: relative; /* Remove absolute positioning */
+        text-align: center; /* Center the text horizontally */
+        letter-spacing: 0.1em;
+        font-size: 4vw;
+    
+        }
+        .container.active .speaker h2{
+            top: 0.5vw;
+            left: 0vw;
+            writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
+            font-family: "owners", sans-serif;
+            font-weight: 1000;
+            font-style: normal;
+            color: rgb(255, 255, 255);
+            position: relative; /* Remove absolute positioning */
+            text-align: center; /* Center the text horizontally */
+            letter-spacing: 0.1em;
+            font-size: 3vw;
+           
+            
+            }
     .image-container {
           position: relative;
           height: 0vh; 
@@ -858,6 +947,35 @@ h1 {
       }
     }
     @media screen and  (min-aspect-ratio: 2.8/1) and (max-aspect-ratio: 4/0.1) {
+        .container.active .speaker h1{
+            top: 0.5vw;
+            left: 0vw;
+            writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
+            font-family: "owners", sans-serif;
+            font-weight: 1000;
+            font-style: normal;
+            color: rgb(255, 255, 255);
+            position: relative; /* Remove absolute positioning */
+            text-align: center; /* Center the text horizontally */
+            letter-spacing: 0.1em;
+            font-size: 4vw;
+        
+            }
+            .container.active .speaker h2{
+                top: 0.5vw;
+                left: 0vw;
+                writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
+                font-family: "owners", sans-serif;
+                font-weight: 1000;
+                font-style: normal;
+                color: rgb(255, 255, 255);
+                position: relative; /* Remove absolute positioning */
+                text-align: center; /* Center the text horizontally */
+                letter-spacing: 0.1em;
+                font-size: 3vw;
+               
+                
+                }
         .container.active .speaker h3 {  
             writing-mode: horizontal-tb !important;
     
@@ -985,6 +1103,7 @@ h1 {
             top: 2vw;
         }
         h1, h2 {
+            left:0vw;
             top: 0.5vw;
             writing-mode: horizontal-tb; /* Change writing mode to horizontal-tb */
             font-family: "owners", sans-serif;
