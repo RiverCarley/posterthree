@@ -302,6 +302,7 @@ h1 {
     .container.active .speaker h1{
         top: 0.5vw;
         left: 0vw;
+        writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
           
         font-family: "Roboto Flex", sans-serif;
         font-optical-sizing: auto;
