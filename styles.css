@@ -30,9 +30,24 @@ body{
     top: 2vw;
    }
    h1, h2 {
-    font-family: "owners", sans-serif;
-    font-weight: 1000;
-    font-style: normal;
+
+    
+      font-family: "Roboto Flex", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+      font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
     color: rgb(255, 255, 255);
      /* Position both h1 and h2 absolutely */
     text-align: center; /* Center the text horizontally */
@@ -150,9 +165,23 @@ h1 {
     margin: 0; /* Remove default margin */
     font-size: 2.4vw;
     cursor:pointer; /* Set the cursor image */
-    font-family: "owners", sans-serif;
-    font-weight: 500;
+       
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
     font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "wdth" 100,
+      "GRAD" 0,
+      "XOPQ" 96,
+      "XTRA" 468,
+      "YOPQ" 79,
+      "YTAS" 750,
+      "YTDE" -203,
+      "YTFI" 738,
+      "YTLC" 514,
+      "YTUC" 712;
     color: white;
     letter-spacing: 0.1em;
 
@@ -202,10 +231,22 @@ h1 {
     font-size: 0vw; /* Adjust font size as needed */
     color: white;
     top:8vw;
-    font-family: "owners", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    letter-spacing: 0.1em;
+    font-family: "Roboto Flex", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        font-variation-settings:
+          "slnt" 0,
+          "wdth" 100,
+          "GRAD" 0,
+          "XOPQ" 96,
+          "XTRA" 468,
+          "YOPQ" 79,
+          "YTAS" 750,
+          "YTDE" -203,
+          "YTFI" 738,
+          "YTLC" 514,
+          "YTUC" 712;
    
 } 
 .speaker.active .info p {
@@ -231,10 +272,12 @@ h1 {
     background:rgb(165, 165, 165);
 } */
 .speaker a:hover {
-  font-weight: 1000;
+    transition:font-weight 500ms;
+    font-weight:800;
 }
  .speaker h3:hover {
-    font-weight: 1000;
+    transition:font-weight 500ms;
+    font-weight: 800;
 } 
 .image-container {
     position: relative;
@@ -259,10 +302,23 @@ h1 {
     .container.active .speaker h1{
         top: 0.5vw;
         left: 0vw;
-        writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
-        font-family: "owners", sans-serif;
-        font-weight: 1000;
+          
+        font-family: "Roboto Flex", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
         font-style: normal;
+        font-variation-settings:
+          "slnt" 0,
+          "wdth" 100,
+          "GRAD" 0,
+          "XOPQ" 96,
+          "XTRA" 468,
+          "YOPQ" 79,
+          "YTAS" 750,
+          "YTDE" -203,
+          "YTFI" 738,
+          "YTLC" 514,
+          "YTUC" 712;
         color: rgb(255, 255, 255);
         position: relative; /* Remove absolute positioning */
         text-align: center; /* Center the text horizontally */
@@ -274,9 +330,23 @@ h1 {
             top: 0.5vw;
             left: 0vw;
             writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
-            font-family: "owners", sans-serif;
-            font-weight: 1000;
-            font-style: normal;
+              
+      font-family: "Roboto Flex", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+      font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
             color: rgb(255, 255, 255);
             position: relative; /* Remove absolute positioning */
             text-align: center; /* Center the text horizontally */
@@ -416,9 +486,23 @@ h1 {
         top: 0.5vw;
         left: 0vw;
         writing-mode: horizontal-tb; /* Change writing mode to horizontal-tb */
-        font-family: "owners", sans-serif;
-        font-weight: 1000;
-        font-style: normal;
+            
+      font-family: "Roboto Flex", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+      font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
         color: rgb(255, 255, 255);
         position: relative; /* Remove absolute positioning */
         text-align: center; /* Center the text horizontally */
@@ -466,9 +550,23 @@ h1 {
         margin: 0; /* Remove default margin */
         font-size: 3.5vw;
         cursor: pointer; /* Set the cursor image */
-        font-family: "owners", sans-serif;
-        font-weight: 500;
-        font-style: normal;
+           
+      font-family: "Roboto Flex", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
         color: white;
         letter-spacing: 0.1em;
     }
@@ -500,9 +598,22 @@ h1 {
     .speaker .info a {
         font-size: 0vw; /* Adjust font size as needed */
         color: white;
-        font-family: "owners", sans-serif;
-        font-weight: 200;
+        font-family: "Roboto Flex", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
         font-style: normal;
+        font-variation-settings:
+          "slnt" 0,
+          "wdth" 100,
+          "GRAD" 0,
+          "XOPQ" 96,
+          "XTRA" 468,
+          "YOPQ" 79,
+          "YTAS" 750,
+          "YTDE" -203,
+          "YTFI" 738,
+          "YTLC" 514,
+          "YTUC" 712;
         letter-spacing: 0.1em;
     } 
     
@@ -537,9 +648,23 @@ h1 {
         top: 0.5vw;
         left: 0vw;
         writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
-        font-family: "owners", sans-serif;
-        font-weight: 1000;
+          
+        font-family: "Roboto Flex", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
         font-style: normal;
+        font-variation-settings:
+          "slnt" 0,
+          "wdth" 100,
+          "GRAD" 0,
+          "XOPQ" 96,
+          "XTRA" 468,
+          "YOPQ" 79,
+          "YTAS" 750,
+          "YTDE" -203,
+          "YTFI" 738,
+          "YTLC" 514,
+          "YTUC" 712;
         color: rgb(255, 255, 255);
         position: relative; /* Remove absolute positioning */
         text-align: center; /* Center the text horizontally */
@@ -551,9 +676,23 @@ h1 {
             top: 0.5vw;
             left: 0vw;
             writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
-            font-family: "owners", sans-serif;
-            font-weight: 1000;
+      
+            font-family: "Roboto Flex", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 800;
             font-style: normal;
+            font-variation-settings:
+              "slnt" 0,
+              "wdth" 100,
+              "GRAD" 0,
+              "XOPQ" 96,
+              "XTRA" 468,
+              "YOPQ" 79,
+              "YTAS" 750,
+              "YTDE" -203,
+              "YTFI" 738,
+              "YTLC" 514,
+              "YTUC" 712;
             color: rgb(255, 255, 255);
             position: relative; /* Remove absolute positioning */
             text-align: center; /* Center the text horizontally */
@@ -694,9 +833,23 @@ h1 {
         top: 0.5vw;
         left:0vw;
         writing-mode: horizontal-tb; /* Change writing mode to horizontal-tb */
-        font-family: "owners", sans-serif;
-        font-weight: 1000;
-        font-style: normal;
+           
+      font-family: "Roboto Flex", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+      font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
         color: rgb(255, 255, 255);
         position: relative; /* Remove absolute positioning */
         text-align: center; /* Center the text horizontally */
@@ -744,9 +897,23 @@ h1 {
         margin: 0; /* Remove default margin */
         font-size: 3.5vw;
         cursor: pointer; /* Set the cursor image */
-        font-family: "owners", sans-serif;
-        font-weight: 500;
+       
+        font-family: "Roboto Flex", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
         font-style: normal;
+        font-variation-settings:
+          "slnt" 0,
+          "wdth" 100,
+          "GRAD" 0,
+          "XOPQ" 96,
+          "XTRA" 468,
+          "YOPQ" 79,
+          "YTAS" 750,
+          "YTDE" -203,
+          "YTFI" 738,
+          "YTLC" 514,
+          "YTUC" 712;
         color: white;
         letter-spacing: 0.1em;
     }
@@ -778,9 +945,22 @@ h1 {
     .speaker .info a {
         font-size: 0vw; /* Adjust font size as needed */
         color: white;
-        font-family: "owners", sans-serif;
-        font-weight: 200;
+        font-family: "Roboto Flex", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
         font-style: normal;
+        font-variation-settings:
+          "slnt" 0,
+          "wdth" 100,
+          "GRAD" 0,
+          "XOPQ" 96,
+          "XTRA" 468,
+          "YOPQ" 79,
+          "YTAS" 750,
+          "YTDE" -203,
+          "YTFI" 738,
+          "YTLC" 514,
+          "YTUC" 712;
         letter-spacing: 0.1em;
     } 
     
@@ -816,9 +996,23 @@ h1 {
         top: 0.5vw;
         left: 0vw;
         writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
-        font-family: "owners", sans-serif;
-        font-weight: 1000;
+          
+        font-family: "Roboto Flex", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
         font-style: normal;
+        font-variation-settings:
+          "slnt" 0,
+          "wdth" 100,
+          "GRAD" 0,
+          "XOPQ" 96,
+          "XTRA" 468,
+          "YOPQ" 79,
+          "YTAS" 750,
+          "YTDE" -203,
+          "YTFI" 738,
+          "YTLC" 514,
+          "YTUC" 712;
         color: rgb(255, 255, 255);
         position: relative; /* Remove absolute positioning */
         text-align: center; /* Center the text horizontally */
@@ -830,9 +1024,23 @@ h1 {
             top: 0.5vw;
             left: 0vw;
             writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
-            font-family: "owners", sans-serif;
-            font-weight: 1000;
-            font-style: normal;
+               
+      font-family: "Roboto Flex", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+      font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
             color: rgb(255, 255, 255);
             position: relative; /* Remove absolute positioning */
             text-align: center; /* Center the text horizontally */
@@ -904,9 +1112,23 @@ h1 {
         top: 0.5vw;
         left: 0vw;
         writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
-        font-family: "owners", sans-serif;
-        font-weight: 1000;
+    
+        font-family: "Roboto Flex", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
         font-style: normal;
+        font-variation-settings:
+          "slnt" 0,
+          "wdth" 100,
+          "GRAD" 0,
+          "XOPQ" 96,
+          "XTRA" 468,
+          "YOPQ" 79,
+          "YTAS" 750,
+          "YTDE" -203,
+          "YTFI" 738,
+          "YTLC" 514,
+          "YTUC" 712;
         color: rgb(255, 255, 255);
         position: relative; /* Remove absolute positioning */
         text-align: center; /* Center the text horizontally */
@@ -918,9 +1140,23 @@ h1 {
             top: 0.5vw;
             left: 0vw;
             writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
-            font-family: "owners", sans-serif;
-            font-weight: 1000;
+        
+            font-family: "Roboto Flex", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 800;
             font-style: normal;
+            font-variation-settings:
+              "slnt" 0,
+              "wdth" 100,
+              "GRAD" 0,
+              "XOPQ" 96,
+              "XTRA" 468,
+              "YOPQ" 79,
+              "YTAS" 750,
+              "YTDE" -203,
+              "YTFI" 738,
+              "YTLC" 514,
+              "YTUC" 712;
             color: rgb(255, 255, 255);
             position: relative; /* Remove absolute positioning */
             text-align: center; /* Center the text horizontally */
@@ -951,9 +1187,23 @@ h1 {
             top: 0.5vw;
             left: 0vw;
             writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
-            font-family: "owners", sans-serif;
-            font-weight: 1000;
-            font-style: normal;
+               
+      font-family: "Roboto Flex", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+      font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
             color: rgb(255, 255, 255);
             position: relative; /* Remove absolute positioning */
             text-align: center; /* Center the text horizontally */
@@ -965,9 +1215,23 @@ h1 {
                 top: 0.5vw;
                 left: 0vw;
                 writing-mode: horizontal-tb !important; /* Change writing mode to horizontal-tb */
-                font-family: "owners", sans-serif;
-                font-weight: 1000;
-                font-style: normal;
+                
+      font-family: "Roboto Flex", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+      font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
                 color: rgb(255, 255, 255);
                 position: relative; /* Remove absolute positioning */
                 text-align: center; /* Center the text horizontally */
@@ -1106,9 +1370,23 @@ h1 {
             left:0vw;
             top: 0.5vw;
             writing-mode: horizontal-tb; /* Change writing mode to horizontal-tb */
-            font-family: "owners", sans-serif;
-            font-weight: 1000;
-            font-style: normal;
+                
+      font-family: "Roboto Flex", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 800;
+      font-style: normal;
+      font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
             color: rgb(255, 255, 255);
             position: relative; /* Remove absolute positioning */
             text-align: center; /* Center the text horizontally */
@@ -1156,9 +1434,23 @@ h1 {
             margin: 0; /* Remove default margin */
             font-size: 3.5vw;
             cursor: pointer; /* Set the cursor image */
-            font-family: "owners", sans-serif;
-            font-weight: 500;
-            font-style: normal;
+            
+      font-family: "Roboto Flex", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
             color: white;
             letter-spacing: 0.1em;
         }
@@ -1187,9 +1479,22 @@ h1 {
         .speaker .info a {
             font-size: 0vw; /* Adjust font size as needed */
             color: white;
-            font-family: "owners", sans-serif;
-            font-weight: 200;
+            font-family: "Roboto Flex", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
             font-style: normal;
+            font-variation-settings:
+              "slnt" 0,
+              "wdth" 100,
+              "GRAD" 0,
+              "XOPQ" 96,
+              "XTRA" 468,
+              "YOPQ" 79,
+              "YTAS" 750,
+              "YTDE" -203,
+              "YTFI" 738,
+              "YTLC" 514,
+              "YTUC" 712;
             letter-spacing: 0.1em;
         } 
         
